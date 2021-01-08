@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    text-align: justify;
+}
+.withd-half{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+}
+.section-height{
+    height: 500px;
+}
+.image-height{
+    width: 100%;
+}
+span{
+    color: orange;
+}
+.link{
+    background-color:gray;
+    text-decoration: none;
+    margin: 3px;
+    border-radius: 4px;
+    padding: 5px;
+}
+.float-right{
+    float: right;
+    margin-right: 2%;
+}
+#box-shadow-left{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 4px;
+}
+#box-shadow-right{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 4px;
+}
+.exp{
+    padding: 4px;
+}
