@@ -1,40 +1,62 @@
 body{
     margin: 0;
-    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
-.withd-half{
+
+.half-width{
     width: 40%;
     float: left;
-    margin-left: 2%;
+    margin: 2%;
+    padding: 2%;
+    height: 430px;
 }
 .section-height{
-    height: 500px;
+    height: 630px;
+    text-align: justify;
+    margin: 4px;
 }
-.image-height{
+#section-top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.image{
     width: 100%;
 }
-span{
-    color: orange;
+.text-heighlight{
+    color: sandybrown;
 }
 .link{
-    background-color:gray;
     text-decoration: none;
-    margin: 3px;
-    border-radius: 4px;
-    padding: 5px;
-}
-.float-right{
-    float: right;
-    margin-right: 2%;
-}
-#box-shadow-left{
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 4px;
-}
-#box-shadow-right{
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 4px;
-}
-.exp{
+    background-color: orange;
+    color: white;
+    margin: 4px;
     padding: 4px;
+    border-radius: 4px;
+}
+#middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#div-shadow1{
+    box-shadow: 10px 10px 40px gray;
+    height: 330px;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, tomato, purple) ;
+    border-image-slice: 2;
+    border-radius: 7px;
+}
+#div-shadow2{
+    box-shadow: 10px 10px 40px gray;
+    height: 330px;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, purple) ;
+    border-image-slice: 2;
+    border-radius: 7px;
+}
+#bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
